@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+
+
+*{
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+body{
+  background-color: black;
+  margin-left: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Main{
+
+  
+  display: inline-block;
+  
+
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.CardContainer{
+
+  
+  width: 400px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.PosterContainer{
+  width: 400px;
+  height: 280px;
+  
+  margin-top: 25px;
+  margin-left: 22px;
+  
+}
+.PosterImg{
+  width: 350px;
+  height: 250px;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.PosterImg:hover{
+  transform: scale(1.1);
 }
+.FullDetails{
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+
+}
+
+.channellogimg{
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.InfoPart{
+  width:450px ;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+ 
+  
+}
+.VTitle{
+  color: rgb(248, 246, 246);
+  font-size: 20px;
+  font-weight: 500;
+
+
+  
+}
+.chname{
+  color: rgb(175, 168, 168);
+  font-size: 20px;
+  font-weight: 50;
+
+}
+
+.Vlikes{
+  color: rgb(249, 249, 249);
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.vViews{
+  color: rgb(245, 239, 239);
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
